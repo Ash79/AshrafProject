@@ -1,6 +1,6 @@
 {
   "cloudformation": {
-    "stackName": "apiczarstack234",
+    "stackName": "APIczarstack0989",
     "templateLocation": "./aws/template.json",
     "Capabilities": [
       "CAPABILITY_IAM"

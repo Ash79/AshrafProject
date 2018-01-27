@@ -105,54 +105,8 @@
             "500"
           ],
           "requireTestDataType": "Test Data",
-          "apiFakerMappingFileProvided": true,
-          "apiFakeMappingFileType": "object",
-          "apiFakerMappingFileLocation": {
-            "type": "object",
-            "properties": {
-              "First Name": {
-                "type": "string"
-              },
-              "Last Name": {
-                "type": "string"
-              },
-              "Age": {
-                "type": "integer"
-              },
-              "Address": {
-                "type": "object",
-                "properties": {
-                  "Street Address": {
-                    "type": "string"
-                  },
-                  "State": {
-                    "type": "string"
-                  },
-                  "City": {
-                    "type": "string"
-                  },
-                  "ZipCode": {
-                    "type": "string"
-                  },
-                  "Country": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "Street Address",
-                  "State",
-                  "City",
-                  "ZipCode",
-                  "Country"
-                ]
-              }
-            },
-            "required": [
-              "First Name",
-              "Last Name",
-              "Age"
-            ]
-          },
+          "apiFakerMappingFileProvided": false,
+          "apiFakeMappingFileType": "testing",
           "apiFakerMappingJsonType": "Data Schema",
           "recordsLimit": "5",
           "requireQuery": false,
@@ -195,54 +149,8 @@
           "500"
         ],
         "requireTestDataType": "Test Data",
-        "apiFakerMappingFileProvided": true,
-        "apiFakeMappingFileType": "object",
-        "apiFakerMappingFileLocation": {
-          "type": "object",
-          "properties": {
-            "First Name": {
-              "type": "string"
-            },
-            "Last Name": {
-              "type": "string"
-            },
-            "Age": {
-              "type": "integer"
-            },
-            "Address": {
-              "type": "object",
-              "properties": {
-                "Street Address": {
-                  "type": "string"
-                },
-                "State": {
-                  "type": "string"
-                },
-                "City": {
-                  "type": "string"
-                },
-                "ZipCode": {
-                  "type": "string"
-                },
-                "Country": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "Street Address",
-                "State",
-                "City",
-                "ZipCode",
-                "Country"
-              ]
-            }
-          },
-          "required": [
-            "First Name",
-            "Last Name",
-            "Age"
-          ]
-        },
+        "apiFakerMappingFileProvided": false,
+        "apiFakeMappingFileType": "testing",
         "apiFakerMappingJsonType": "Data Schema",
         "recordsLimit": "5",
         "requireQuery": false,
