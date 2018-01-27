@@ -1,0 +1,15 @@
+{
+  "cloudformation": {
+    "stackName": "apiczarstack980",
+    "templateLocation": "./aws/template.json",
+    "Capabilities": [
+      "CAPABILITY_IAM"
+    ]
+  },
+  "s3BucketName": "apiczartestbucket",
+  "swaggerJsonLocation": "./aws/swagger.json",
+  "apigateway": {
+    "stage": "Dev",
+    "id": ""
+  }
+}
