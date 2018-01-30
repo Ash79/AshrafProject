@@ -1,0 +1,1 @@
+{"type":"object","properties":{"ip":{"type":"string"},"name":{"type":"string"}},"required":["ip","name"]}
