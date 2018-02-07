@@ -1,0 +1,15 @@
+{
+  "cloudformation": {
+    "stackName": "apiczardevicestack123",
+    "templateLocation": "./aws/template.json",
+    "Capabilities": [
+      "CAPABILITY_IAM"
+    ]
+  },
+  "s3BucketName": "apiczatestbucket",
+  "swaggerJsonLocation": "./aws/swagger.json",
+  "apigateway": {
+    "stage": "dev",
+    "id": ""
+  }
+}

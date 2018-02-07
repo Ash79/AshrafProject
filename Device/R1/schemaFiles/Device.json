@@ -1,0 +1,1 @@
+{"type":"object","properties":{"device_Id":{"type":"string"},"device_type":{"type":"string"},"Device Name":{"type":"string"}},"required":["device_Id","device_type","Device Name"]}
