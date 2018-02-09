@@ -201,6 +201,7 @@ definitions:
       - First Name
       - Last Name
       - Age
+      - Address
 responses:
   Standard500ErrorResponse:
     description: An unexpected error occured.
